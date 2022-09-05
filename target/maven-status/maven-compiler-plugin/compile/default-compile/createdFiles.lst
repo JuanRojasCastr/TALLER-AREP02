@@ -1,0 +1,4 @@
+edu\eci\arep\microspringboot\App.class
+edu\eci\arep\microspringboot\HttpServer.class
+edu\eci\arep\microspringboot\annotations\RequestMapping.class
+edu\eci\arep\microspringboot\webservices\HelloController.class
