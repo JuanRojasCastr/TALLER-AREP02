@@ -16,10 +16,11 @@ public class HttpServer {
 
     public void start(Map<String, Method> methods) throws IOException {
         this.methods = methods;
+        Integer port = new Integer(System.getenv("PORT"));
 
         ServerSocket serverSocket = null;
         try {
-            serverSocket = new ServerSocket(35001);
+            serverSocket = new ServerSocket(port);
         } catch (IOException e) {
             System.err.println("Could not listen on port: 35001");
             System.exit(1);

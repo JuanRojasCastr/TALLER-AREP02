@@ -1,0 +1,1 @@
+web: java -cp target/classes edu.eci.arep.microspringboot.App edu.eci.arep.microspringboot.webservices.HelloController
